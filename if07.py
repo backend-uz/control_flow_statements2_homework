@@ -13,4 +13,16 @@ def main(temp):
     Returns:
         str: return answer.
     """
-    return
+    if temp==0:
+        return "Freezing"
+    if temp <= 10:
+        return "Very cold"
+    if temp <= 20:
+        return "Cold"
+    if temp <= 30:
+        return "Normal"
+    if temp <=39:
+        return "Hot"
+    if temp == 40:
+        return "Very hot"
+print(main(38))
