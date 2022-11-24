@@ -25,4 +25,4 @@ def main(temp):
         return "Hot"
     if temp == 40:
         return "Very hot"
-print(main(38))
+print(main(35))
